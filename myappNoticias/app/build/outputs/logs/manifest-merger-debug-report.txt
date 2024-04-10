@@ -1,0 +1,639 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yonik\.gradle\caches\transforms-3\4ff86b6a55c1d10524c45268b422c69e\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\29fb3965ca70088d28fc018a27c0c8f6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\c8af4bd701e5b2757b5b9960a3922771\transformed\room-ktx-2.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\9c3c90c45aa56a921e5115358de70621\transformed\room-runtime-2.5.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yonik\.gradle\caches\transforms-3\06a0d7969b83e64a3d1a8ed7a1a95a04\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\yonik\.gradle\caches\transforms-3\03f3ed3ec50d15dafda304fd93b6eeb7\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\yonik\.gradle\caches\transforms-3\eb032611c49980c294c7bd0f20c3f971\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\yonik\.gradle\caches\transforms-3\f873a375ada29835750dc3be39056b83\transformed\glide-4.15.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\a1e1ad6f4faea66b5a5a8ecace7a6659\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\yonik\.gradle\caches\transforms-3\f05b88a99272403a964ba76d402338b6\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\yonik\.gradle\caches\transforms-3\e3b22924a138b961bc77ed29cf11fcf4\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\yonik\.gradle\caches\transforms-3\cfc2538cb85dfd06e3af86b6e7e2a787\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\yonik\.gradle\caches\transforms-3\53f418b668879364977a11db00ac353e\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\yonik\.gradle\caches\transforms-3\e48fac2c64ad32486dc50c40900a487a\transformed\play-services-fido-20.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1798a6f51053ab37b7ec5e5bcad7c2a7\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yonik\.gradle\caches\transforms-3\7df2a3029e4184cd46f30121908be555\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\yonik\.gradle\caches\transforms-3\cbccdc3a52bcb426a17924c00710a84e\transformed\recaptcha-18.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\dfea3a49adb66750010fec7187b8ad79\transformed\integrity-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\3f2e3f99a7f762ad93b0ac3a87e0ca32\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\d1af740d72850d27e4dc1a72a6b17832\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\c4f1e87de653c8a56501c815bc717cd0\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\b7e36e2596fba727f259add164a381e4\transformed\loader-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\375f0f7f78c18378fa37ad8b306f20e2\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\e5703c720b1f42772fa817a077036839\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\ccf28c9bf4eff4ce74b08ad36fcf429f\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\4452f75910e0f91eb6e5284529f9da09\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\2b80cb0840390324d08c166aac6c62ca\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1f68384ef7c6a49184ee0df60cd9c01d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\ee6be9ea2590e4d57a4fa28253c77af6\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\856bc7270709836e1424630505753a3b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\9e64ac28c5ac111ae56cbeba724d0b56\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\yonik\.gradle\caches\transforms-3\a763b4453b0ecc84996bdab41167a3c0\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\a2867719ec0a5ff1a564f0eb29412b6d\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\2ea397cbef60ef4378d5d0cf9d395c38\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\e2539554b8e21cf7765e5b25bf701285\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\750d2aaf643af0f1fc38401bade757c5\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\yonik\.gradle\caches\transforms-3\250bd1917a8e244eb46f4b024087d599\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\3252c867119a03c0e9f7620e12ae6175\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\yonik\.gradle\caches\transforms-3\c963542c1c526122bfa1afc6b83c2c62\transformed\play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\yonik\.gradle\caches\transforms-3\52ed8e7e60d2dc3281f83cc052f17f5a\transformed\fragment-1.5.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\yonik\.gradle\caches\transforms-3\a96cd2e2fc31cb56e81eac5186b0fa97\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\2278cf48e1a7c4b53e82da1cd389a287\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\a618a25556d8a90ba43a6233a1df04eb\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\yonik\.gradle\caches\transforms-3\fdda0c699c9c623fb6f8c809e33b9cd5\transformed\grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] C:\Users\yonik\.gradle\caches\transforms-3\f65f4b68a81195cfe314ffe3f8d38e5d\transformed\filament-android-1.17.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\6db48b698a7a3ef24dfc3fb367a34a37\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\57af489b462cab77e12ae0d4f314c48f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\yonik\.gradle\caches\transforms-3\88ad11e57de9a9d693aef73ded5ff8e4\transformed\firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\yonik\.gradle\caches\transforms-3\226d41c4454f0923a23883c2000a9259\transformed\gifdecoder-4.15.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\yonik\.gradle\caches\transforms-3\dc6e4ebed1c05493de913b2e8f5d034c\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\a2cf9e0d11f31d1d08b909fa112303da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\7f657d975c0881ae81fe2d085509f4a4\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\yonik\.gradle\caches\transforms-3\0c0e202a208f284020f6155b4e65e9d1\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\yonik\.gradle\caches\transforms-3\81065c16d9443aecef1afda6be5a7fdf\transformed\sqlite-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\7d5dabf078e6a206c1ee36bb697ea469\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\102e718a16ec9f85e22b5e39a6d62cf2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yonik\.gradle\caches\transforms-3\09b4cfaf9ce48f42a34f29761d45a909\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\29b3dd433dfab85927fe61db03795e92\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\2c26450899697c26d70433825e92500a\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\67e8003ffbee5ed26d708f90092d2dd7\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\561d0d8b6f9e8790f2facd0f508b3bdc\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yonik\.gradle\caches\transforms-3\05c2022d2e421676d9f61b948ae45a6a\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:2:1-41:12
+	package
+		INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\yonik\.gradle\caches\transforms-3\cbccdc3a52bcb426a17924c00710a84e\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\yonik\.gradle\caches\transforms-3\cbccdc3a52bcb426a17924c00710a84e\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:7:5-39:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yonik\.gradle\caches\transforms-3\4ff86b6a55c1d10524c45268b422c69e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yonik\.gradle\caches\transforms-3\4ff86b6a55c1d10524c45268b422c69e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\29fb3965ca70088d28fc018a27c0c8f6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\29fb3965ca70088d28fc018a27c0c8f6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\9c3c90c45aa56a921e5115358de70621\transformed\room-runtime-2.5.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\9c3c90c45aa56a921e5115358de70621\transformed\room-runtime-2.5.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yonik\.gradle\caches\transforms-3\06a0d7969b83e64a3d1a8ed7a1a95a04\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yonik\.gradle\caches\transforms-3\06a0d7969b83e64a3d1a8ed7a1a95a04\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\yonik\.gradle\caches\transforms-3\f873a375ada29835750dc3be39056b83\transformed\glide-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\yonik\.gradle\caches\transforms-3\f873a375ada29835750dc3be39056b83\transformed\glide-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\yonik\.gradle\caches\transforms-3\f05b88a99272403a964ba76d402338b6\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\yonik\.gradle\caches\transforms-3\f05b88a99272403a964ba76d402338b6\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\yonik\.gradle\caches\transforms-3\e48fac2c64ad32486dc50c40900a487a\transformed\play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\yonik\.gradle\caches\transforms-3\e48fac2c64ad32486dc50c40900a487a\transformed\play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1798a6f51053ab37b7ec5e5bcad7c2a7\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1798a6f51053ab37b7ec5e5bcad7c2a7\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yonik\.gradle\caches\transforms-3\7df2a3029e4184cd46f30121908be555\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yonik\.gradle\caches\transforms-3\7df2a3029e4184cd46f30121908be555\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\dfea3a49adb66750010fec7187b8ad79\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\dfea3a49adb66750010fec7187b8ad79\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\e5703c720b1f42772fa817a077036839\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\e5703c720b1f42772fa817a077036839\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\3252c867119a03c0e9f7620e12ae6175\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\3252c867119a03c0e9f7620e12ae6175\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\yonik\.gradle\caches\transforms-3\c963542c1c526122bfa1afc6b83c2c62\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\yonik\.gradle\caches\transforms-3\c963542c1c526122bfa1afc6b83c2c62\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\yonik\.gradle\caches\transforms-3\226d41c4454f0923a23883c2000a9259\transformed\gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\yonik\.gradle\caches\transforms-3\226d41c4454f0923a23883c2000a9259\transformed\gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\a2cf9e0d11f31d1d08b909fa112303da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\a2cf9e0d11f31d1d08b909fa112303da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\102e718a16ec9f85e22b5e39a6d62cf2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\102e718a16ec9f85e22b5e39a6d62cf2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:10:9-54
+	android:roundIcon
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:13:9-70
+	tools:targetApi
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:17:9-29
+	android:icon
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:11:9-65
+	android:allowBackup
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:15:9-51
+	android:dataExtractionRules
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:9:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:16:9-44
+activity#com.example.myappnoticias.a_ui.FragmentNoticiasPospuestas
+ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:18:9-20:38
+	android:exported
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:19:13-60
+activity#com.example.myappnoticias.a_ui.Noticia
+ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:21:9-23:38
+	android:exported
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:22:13-41
+activity#com.example.myappnoticias.a_ui.FragmentNoticiasMain
+ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:24:9-26:39
+	android:exported
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:25:13-54
+activity#com.example.myappnoticias.a_ui.SplashActivity
+ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:29:9-38:20
+	android:exported
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:30:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml:35:27-74
+uses-sdk
+INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yonik\.gradle\caches\transforms-3\4ff86b6a55c1d10524c45268b422c69e\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yonik\.gradle\caches\transforms-3\4ff86b6a55c1d10524c45268b422c69e\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\29fb3965ca70088d28fc018a27c0c8f6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\29fb3965ca70088d28fc018a27c0c8f6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\c8af4bd701e5b2757b5b9960a3922771\transformed\room-ktx-2.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\c8af4bd701e5b2757b5b9960a3922771\transformed\room-ktx-2.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\9c3c90c45aa56a921e5115358de70621\transformed\room-runtime-2.5.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\9c3c90c45aa56a921e5115358de70621\transformed\room-runtime-2.5.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yonik\.gradle\caches\transforms-3\06a0d7969b83e64a3d1a8ed7a1a95a04\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yonik\.gradle\caches\transforms-3\06a0d7969b83e64a3d1a8ed7a1a95a04\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\yonik\.gradle\caches\transforms-3\03f3ed3ec50d15dafda304fd93b6eeb7\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\yonik\.gradle\caches\transforms-3\03f3ed3ec50d15dafda304fd93b6eeb7\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\yonik\.gradle\caches\transforms-3\eb032611c49980c294c7bd0f20c3f971\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\yonik\.gradle\caches\transforms-3\eb032611c49980c294c7bd0f20c3f971\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\yonik\.gradle\caches\transforms-3\f873a375ada29835750dc3be39056b83\transformed\glide-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\yonik\.gradle\caches\transforms-3\f873a375ada29835750dc3be39056b83\transformed\glide-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\a1e1ad6f4faea66b5a5a8ecace7a6659\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\a1e1ad6f4faea66b5a5a8ecace7a6659\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\yonik\.gradle\caches\transforms-3\f05b88a99272403a964ba76d402338b6\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\yonik\.gradle\caches\transforms-3\f05b88a99272403a964ba76d402338b6\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\yonik\.gradle\caches\transforms-3\e3b22924a138b961bc77ed29cf11fcf4\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\yonik\.gradle\caches\transforms-3\e3b22924a138b961bc77ed29cf11fcf4\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\yonik\.gradle\caches\transforms-3\cfc2538cb85dfd06e3af86b6e7e2a787\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\yonik\.gradle\caches\transforms-3\cfc2538cb85dfd06e3af86b6e7e2a787\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\yonik\.gradle\caches\transforms-3\53f418b668879364977a11db00ac353e\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\yonik\.gradle\caches\transforms-3\53f418b668879364977a11db00ac353e\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\yonik\.gradle\caches\transforms-3\e48fac2c64ad32486dc50c40900a487a\transformed\play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\yonik\.gradle\caches\transforms-3\e48fac2c64ad32486dc50c40900a487a\transformed\play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1798a6f51053ab37b7ec5e5bcad7c2a7\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1798a6f51053ab37b7ec5e5bcad7c2a7\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yonik\.gradle\caches\transforms-3\7df2a3029e4184cd46f30121908be555\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yonik\.gradle\caches\transforms-3\7df2a3029e4184cd46f30121908be555\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\yonik\.gradle\caches\transforms-3\cbccdc3a52bcb426a17924c00710a84e\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\yonik\.gradle\caches\transforms-3\cbccdc3a52bcb426a17924c00710a84e\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\dfea3a49adb66750010fec7187b8ad79\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\dfea3a49adb66750010fec7187b8ad79\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\3f2e3f99a7f762ad93b0ac3a87e0ca32\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\3f2e3f99a7f762ad93b0ac3a87e0ca32\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\d1af740d72850d27e4dc1a72a6b17832\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\d1af740d72850d27e4dc1a72a6b17832\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\c4f1e87de653c8a56501c815bc717cd0\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\c4f1e87de653c8a56501c815bc717cd0\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\b7e36e2596fba727f259add164a381e4\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\b7e36e2596fba727f259add164a381e4\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\375f0f7f78c18378fa37ad8b306f20e2\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\375f0f7f78c18378fa37ad8b306f20e2\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\e5703c720b1f42772fa817a077036839\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\e5703c720b1f42772fa817a077036839\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\ccf28c9bf4eff4ce74b08ad36fcf429f\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\ccf28c9bf4eff4ce74b08ad36fcf429f\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\4452f75910e0f91eb6e5284529f9da09\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\4452f75910e0f91eb6e5284529f9da09\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\2b80cb0840390324d08c166aac6c62ca\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\2b80cb0840390324d08c166aac6c62ca\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1f68384ef7c6a49184ee0df60cd9c01d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1f68384ef7c6a49184ee0df60cd9c01d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\ee6be9ea2590e4d57a4fa28253c77af6\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\ee6be9ea2590e4d57a4fa28253c77af6\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\856bc7270709836e1424630505753a3b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\856bc7270709836e1424630505753a3b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\9e64ac28c5ac111ae56cbeba724d0b56\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\9e64ac28c5ac111ae56cbeba724d0b56\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\yonik\.gradle\caches\transforms-3\a763b4453b0ecc84996bdab41167a3c0\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\yonik\.gradle\caches\transforms-3\a763b4453b0ecc84996bdab41167a3c0\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\a2867719ec0a5ff1a564f0eb29412b6d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\a2867719ec0a5ff1a564f0eb29412b6d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\2ea397cbef60ef4378d5d0cf9d395c38\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\2ea397cbef60ef4378d5d0cf9d395c38\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\e2539554b8e21cf7765e5b25bf701285\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\yonik\.gradle\caches\transforms-3\e2539554b8e21cf7765e5b25bf701285\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\750d2aaf643af0f1fc38401bade757c5\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\750d2aaf643af0f1fc38401bade757c5\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\yonik\.gradle\caches\transforms-3\250bd1917a8e244eb46f4b024087d599\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\yonik\.gradle\caches\transforms-3\250bd1917a8e244eb46f4b024087d599\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\3252c867119a03c0e9f7620e12ae6175\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\3252c867119a03c0e9f7620e12ae6175\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\yonik\.gradle\caches\transforms-3\c963542c1c526122bfa1afc6b83c2c62\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\yonik\.gradle\caches\transforms-3\c963542c1c526122bfa1afc6b83c2c62\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\yonik\.gradle\caches\transforms-3\52ed8e7e60d2dc3281f83cc052f17f5a\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\yonik\.gradle\caches\transforms-3\52ed8e7e60d2dc3281f83cc052f17f5a\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\yonik\.gradle\caches\transforms-3\a96cd2e2fc31cb56e81eac5186b0fa97\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\yonik\.gradle\caches\transforms-3\a96cd2e2fc31cb56e81eac5186b0fa97\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\2278cf48e1a7c4b53e82da1cd389a287\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\2278cf48e1a7c4b53e82da1cd389a287\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\a618a25556d8a90ba43a6233a1df04eb\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\a618a25556d8a90ba43a6233a1df04eb\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\yonik\.gradle\caches\transforms-3\fdda0c699c9c623fb6f8c809e33b9cd5\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\yonik\.gradle\caches\transforms-3\fdda0c699c9c623fb6f8c809e33b9cd5\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] C:\Users\yonik\.gradle\caches\transforms-3\f65f4b68a81195cfe314ffe3f8d38e5d\transformed\filament-android-1.17.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] C:\Users\yonik\.gradle\caches\transforms-3\f65f4b68a81195cfe314ffe3f8d38e5d\transformed\filament-android-1.17.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\6db48b698a7a3ef24dfc3fb367a34a37\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\6db48b698a7a3ef24dfc3fb367a34a37\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\57af489b462cab77e12ae0d4f314c48f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\57af489b462cab77e12ae0d4f314c48f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\yonik\.gradle\caches\transforms-3\88ad11e57de9a9d693aef73ded5ff8e4\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\yonik\.gradle\caches\transforms-3\88ad11e57de9a9d693aef73ded5ff8e4\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\yonik\.gradle\caches\transforms-3\226d41c4454f0923a23883c2000a9259\transformed\gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\yonik\.gradle\caches\transforms-3\226d41c4454f0923a23883c2000a9259\transformed\gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\yonik\.gradle\caches\transforms-3\dc6e4ebed1c05493de913b2e8f5d034c\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\yonik\.gradle\caches\transforms-3\dc6e4ebed1c05493de913b2e8f5d034c\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\a2cf9e0d11f31d1d08b909fa112303da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\a2cf9e0d11f31d1d08b909fa112303da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\7f657d975c0881ae81fe2d085509f4a4\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\7f657d975c0881ae81fe2d085509f4a4\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\yonik\.gradle\caches\transforms-3\0c0e202a208f284020f6155b4e65e9d1\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\yonik\.gradle\caches\transforms-3\0c0e202a208f284020f6155b4e65e9d1\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\yonik\.gradle\caches\transforms-3\81065c16d9443aecef1afda6be5a7fdf\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\yonik\.gradle\caches\transforms-3\81065c16d9443aecef1afda6be5a7fdf\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\7d5dabf078e6a206c1ee36bb697ea469\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\7d5dabf078e6a206c1ee36bb697ea469\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\102e718a16ec9f85e22b5e39a6d62cf2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\102e718a16ec9f85e22b5e39a6d62cf2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yonik\.gradle\caches\transforms-3\09b4cfaf9ce48f42a34f29761d45a909\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yonik\.gradle\caches\transforms-3\09b4cfaf9ce48f42a34f29761d45a909\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\29b3dd433dfab85927fe61db03795e92\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\29b3dd433dfab85927fe61db03795e92\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\2c26450899697c26d70433825e92500a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\2c26450899697c26d70433825e92500a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\67e8003ffbee5ed26d708f90092d2dd7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yonik\.gradle\caches\transforms-3\67e8003ffbee5ed26d708f90092d2dd7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\561d0d8b6f9e8790f2facd0f508b3bdc\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\561d0d8b6f9e8790f2facd0f508b3bdc\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yonik\.gradle\caches\transforms-3\05c2022d2e421676d9f61b948ae45a6a\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yonik\.gradle\caches\transforms-3\05c2022d2e421676d9f61b948ae45a6a\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yonik\AndroidStudioProjects\myappNoticias\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\yonik\.gradle\caches\transforms-3\cbccdc3a52bcb426a17924c00710a84e\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\yonik\.gradle\caches\transforms-3\cbccdc3a52bcb426a17924c00710a84e\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\yonik\.gradle\caches\transforms-3\fdda0c699c9c623fb6f8c809e33b9cd5\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\yonik\.gradle\caches\transforms-3\fdda0c699c9c623fb6f8c809e33b9cd5\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:22:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\29fb3965ca70088d28fc018a27c0c8f6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\29fb3965ca70088d28fc018a27c0c8f6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:28:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:27:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\yonik\.gradle\caches\transforms-3\6c83b6c76c582ece2950aabe093cbcb6\transformed\firebase-database-20.3.1\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\yonik\.gradle\caches\transforms-3\be7f6e08ee6237b9243e5e81269acad0\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:21:17-111
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\yonik\.gradle\caches\transforms-3\a8e06c9a3d28515d4d65b84a13414bca\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\29fb3965ca70088d28fc018a27c0c8f6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\29fb3965ca70088d28fc018a27c0c8f6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\29fb3965ca70088d28fc018a27c0c8f6\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\9c3c90c45aa56a921e5115358de70621\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\9c3c90c45aa56a921e5115358de70621\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\9c3c90c45aa56a921e5115358de70621\transformed\room-runtime-2.5.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\9c3c90c45aa56a921e5115358de70621\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\yonik\.gradle\caches\transforms-3\9c3c90c45aa56a921e5115358de70621\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\yonik\.gradle\caches\transforms-3\31554349d1300af33bba4daffb2d53af\transformed\play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1798a6f51053ab37b7ec5e5bcad7c2a7\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1798a6f51053ab37b7ec5e5bcad7c2a7\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1798a6f51053ab37b7ec5e5bcad7c2a7\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yonik\.gradle\caches\transforms-3\1798a6f51053ab37b7ec5e5bcad7c2a7\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yonik\.gradle\caches\transforms-3\88dbe97576bca14523704e224295d5b7\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\yonik\.gradle\caches\transforms-3\cbccdc3a52bcb426a17924c00710a84e\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\yonik\.gradle\caches\transforms-3\cbccdc3a52bcb426a17924c00710a84e\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\e5703c720b1f42772fa817a077036839\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\e5703c720b1f42772fa817a077036839\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\a2cf9e0d11f31d1d08b909fa112303da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yonik\.gradle\caches\transforms-3\a2cf9e0d11f31d1d08b909fa112303da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yonik\.gradle\caches\transforms-3\fbc747d627b07d13f8e0fc634d3196d8\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\e5703c720b1f42772fa817a077036839\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\e5703c720b1f42772fa817a077036839\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yonik\.gradle\caches\transforms-3\e5703c720b1f42772fa817a077036839\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.example.myappnoticias.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.myappnoticias.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\yonik\.gradle\caches\transforms-3\0c6d30896eee8d75e2e915e533ceb444\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\yonik\.gradle\caches\transforms-3\c963542c1c526122bfa1afc6b83c2c62\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\yonik\.gradle\caches\transforms-3\c963542c1c526122bfa1afc6b83c2c62\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\yonik\.gradle\caches\transforms-3\c963542c1c526122bfa1afc6b83c2c62\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonik\.gradle\caches\transforms-3\02425f4d80a65f524d32f833883c0da0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

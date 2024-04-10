@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_noticia_pospuesta_item.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\noticia_pospuesta_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\drawable_leyendo_el_periodico_en_la_mesaa.jpg.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\drawable\\leyendo_el_periodico_en_la_mesaa.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_simbolo_carga.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\simbolo_carga.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\drawable_image_predeterminado_por_negative_resword.jpg.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\drawable\\image_predeterminado_por_negative_resword.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_noticia_item.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\noticia_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_activity_ver_mas_tarde_lista.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\activity_ver_mas_tarde_lista.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_vista_fragmento2.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\vista_fragmento2.xml"
+    },
+    {
+        "merged": "com.example.myappnoticias.app-merged_res-43:/layout_noticia_pospuesta_item.xml.flat",
+        "source": "com.example.myappnoticias.app-main-45:/layout/noticia_pospuesta_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_vista_login.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\vista_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_noticia_item3.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\noticia_item3.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_progress_dialog.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_reciclador.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\reciclador.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_asd.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\asd.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\drawable__9326343_doblado_noticias_de_peri_dico_con_art_culos.jpg.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\drawable\\_9326343_doblado_noticias_de_peri_dico_con_art_culos.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\drawable_leyendo_el_periodico_en_la_mesa.jpg.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\drawable\\leyendo_el_periodico_en_la_mesa.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_activity_main_noticiasdemo.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\activity_main_noticiasdemo.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_vista_fragmento1.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\vista_fragmento1.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_activity_noticia_abierta.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\activity_noticia_abierta.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\xml\\backup_rules.xml"
+    }
+]
