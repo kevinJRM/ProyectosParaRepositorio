@@ -3,25 +3,15 @@ package com.example.myappnoticias.a_ui
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.example.myappnoticias.R
 import com.example.myappnoticias.b_model.Articulo
 import com.example.myappnoticias.b_model.MainNoticiaModel
 import com.example.myappnoticias.b_model.Source
-import com.example.myappnoticias.c_dominio.NoticiaAdapter
 import com.example.myappnoticias.c_dominio.RecicladorAdaptadorNoticia
-import com.example.myappnoticias.data.local.AppDatabase
-import com.example.myappnoticias.data.local.toLocal
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
 
 class Noticia : AppCompatActivity() {
 
@@ -30,9 +20,13 @@ class Noticia : AppCompatActivity() {
     private lateinit var adapter : RecicladorAdaptadorNoticia
     private var articuloAbierto = ArrayList<Articulo>()
 
+    private lateinit var botonAtras : Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.reciclador)
+        setContentView(R.layout.activity_despliegue_noticia_abierta)
+
+        botonAtras = findViewById(R.id.boton_atras_noticia_abierta)
 
         rvArticulosNoticias = findViewById(R.id.recicleyViewNoticiaAbierta)
 
@@ -42,6 +36,9 @@ class Noticia : AppCompatActivity() {
 
         rvArticulosNoticias.adapter = adapter
 
+        botonAtras.setOnClickListener(){
+            finish()
+        }
 
         //------------------------------------------------------------------------------------------
         val articulo = intent.getStringExtra("articulo").toString().split("|")

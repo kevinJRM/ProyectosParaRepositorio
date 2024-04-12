@@ -1,4 +1,4 @@
-#Wed Apr 10 13:00:44 ART 2024
+#Thu Apr 11 21:27:01 ART 2024
 base.0=C\:\\Users\\yonik\\AndroidStudioProjects\\myappNoticias\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\yonik\\AndroidStudioProjects\\myappNoticias\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\yonik\\AndroidStudioProjects\\myappNoticias\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex

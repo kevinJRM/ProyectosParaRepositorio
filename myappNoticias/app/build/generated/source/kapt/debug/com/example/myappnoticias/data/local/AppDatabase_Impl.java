@@ -37,14 +37,14 @@ public final class AppDatabase_Impl extends AppDatabase {
     final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(3) {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `noticiaaaaasss` (`titulo` TEXT NOT NULL, `nombre` TEXT NOT NULL, `description` TEXT NOT NULL, `url` TEXT NOT NULL, `urlToImage` TEXT NOT NULL, `publishedAt` TEXT NOT NULL, `content` TEXT NOT NULL, PRIMARY KEY(`titulo`))");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `noticias` (`titulo` TEXT NOT NULL, `nombre` TEXT NOT NULL, `description` TEXT NOT NULL, `url` TEXT NOT NULL, `urlToImage` TEXT NOT NULL, `publishedAt` TEXT NOT NULL, `content` TEXT NOT NULL, PRIMARY KEY(`titulo`))");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '8c5c82682f30e04adedb76d8a4121180')");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '4576809fd0bac640b5185e35c4648763')");
       }
 
       @Override
       public void dropAllTables(SupportSQLiteDatabase _db) {
-        _db.execSQL("DROP TABLE IF EXISTS `noticiaaaaasss`");
+        _db.execSQL("DROP TABLE IF EXISTS `noticias`");
         if (mCallbacks != null) {
           for (int _i = 0, _size = mCallbacks.size(); _i < _size; _i++) {
             mCallbacks.get(_i).onDestructiveMigration(_db);
@@ -83,26 +83,26 @@ public final class AppDatabase_Impl extends AppDatabase {
 
       @Override
       public RoomOpenHelper.ValidationResult onValidateSchema(SupportSQLiteDatabase _db) {
-        final HashMap<String, TableInfo.Column> _columnsNoticiaaaaasss = new HashMap<String, TableInfo.Column>(7);
-        _columnsNoticiaaaaasss.put("titulo", new TableInfo.Column("titulo", "TEXT", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
-        _columnsNoticiaaaaasss.put("nombre", new TableInfo.Column("nombre", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
-        _columnsNoticiaaaaasss.put("description", new TableInfo.Column("description", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
-        _columnsNoticiaaaaasss.put("url", new TableInfo.Column("url", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
-        _columnsNoticiaaaaasss.put("urlToImage", new TableInfo.Column("urlToImage", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
-        _columnsNoticiaaaaasss.put("publishedAt", new TableInfo.Column("publishedAt", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
-        _columnsNoticiaaaaasss.put("content", new TableInfo.Column("content", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
-        final HashSet<TableInfo.ForeignKey> _foreignKeysNoticiaaaaasss = new HashSet<TableInfo.ForeignKey>(0);
-        final HashSet<TableInfo.Index> _indicesNoticiaaaaasss = new HashSet<TableInfo.Index>(0);
-        final TableInfo _infoNoticiaaaaasss = new TableInfo("noticiaaaaasss", _columnsNoticiaaaaasss, _foreignKeysNoticiaaaaasss, _indicesNoticiaaaaasss);
-        final TableInfo _existingNoticiaaaaasss = TableInfo.read(_db, "noticiaaaaasss");
-        if (! _infoNoticiaaaaasss.equals(_existingNoticiaaaaasss)) {
-          return new RoomOpenHelper.ValidationResult(false, "noticiaaaaasss(com.example.myappnoticias.data.local.NoticiaLocal).\n"
-                  + " Expected:\n" + _infoNoticiaaaaasss + "\n"
-                  + " Found:\n" + _existingNoticiaaaaasss);
+        final HashMap<String, TableInfo.Column> _columnsNoticias = new HashMap<String, TableInfo.Column>(7);
+        _columnsNoticias.put("titulo", new TableInfo.Column("titulo", "TEXT", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsNoticias.put("nombre", new TableInfo.Column("nombre", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsNoticias.put("description", new TableInfo.Column("description", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsNoticias.put("url", new TableInfo.Column("url", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsNoticias.put("urlToImage", new TableInfo.Column("urlToImage", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsNoticias.put("publishedAt", new TableInfo.Column("publishedAt", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsNoticias.put("content", new TableInfo.Column("content", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        final HashSet<TableInfo.ForeignKey> _foreignKeysNoticias = new HashSet<TableInfo.ForeignKey>(0);
+        final HashSet<TableInfo.Index> _indicesNoticias = new HashSet<TableInfo.Index>(0);
+        final TableInfo _infoNoticias = new TableInfo("noticias", _columnsNoticias, _foreignKeysNoticias, _indicesNoticias);
+        final TableInfo _existingNoticias = TableInfo.read(_db, "noticias");
+        if (! _infoNoticias.equals(_existingNoticias)) {
+          return new RoomOpenHelper.ValidationResult(false, "noticias(com.example.myappnoticias.data.local.NoticiaLocal).\n"
+                  + " Expected:\n" + _infoNoticias + "\n"
+                  + " Found:\n" + _existingNoticias);
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "8c5c82682f30e04adedb76d8a4121180", "be01acbca1dc7db7bb693fad369b582a");
+    }, "4576809fd0bac640b5185e35c4648763", "e7b32ce803fd48e560aeea4999ea832e");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)
@@ -115,7 +115,7 @@ public final class AppDatabase_Impl extends AppDatabase {
   protected InvalidationTracker createInvalidationTracker() {
     final HashMap<String, String> _shadowTablesMap = new HashMap<String, String>(0);
     HashMap<String, Set<String>> _viewTables = new HashMap<String, Set<String>>(0);
-    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "noticiaaaaasss");
+    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "noticias");
   }
 
   @Override
@@ -124,7 +124,7 @@ public final class AppDatabase_Impl extends AppDatabase {
     final SupportSQLiteDatabase _db = super.getOpenHelper().getWritableDatabase();
     try {
       super.beginTransaction();
-      _db.execSQL("DELETE FROM `noticiaaaaasss`");
+      _db.execSQL("DELETE FROM `noticias`");
       super.setTransactionSuccessful();
     } finally {
       super.endTransaction();

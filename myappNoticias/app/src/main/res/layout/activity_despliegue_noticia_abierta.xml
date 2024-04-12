@@ -21,4 +21,13 @@
             android:visibility="visible" />
     </ScrollView>
 
+    <Button
+        android:id="@+id/boton_atras_noticia_abierta"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#FFFFFF"
+        android:foreground="@android:drawable/ic_menu_revert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,7 +19,7 @@ interface NoticiaDAO {
     fun insert(noticias : NoticiaLocal)
 
     @Delete
-    fun delete(vararg noticia: NoticiaLocal)
+    fun delete(vararg noticias: NoticiaLocal)
 
 
 

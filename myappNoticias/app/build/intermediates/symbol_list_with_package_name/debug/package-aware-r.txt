@@ -3221,6 +3221,7 @@ id bestChoice
 id blocking
 id boton_AbrirNoticia
 id boton_abrir_noticia_pospuesta
+id boton_atras_noticia_abierta
 id boton_guardar_favoritos
 id boton_inicio
 id boton_login
@@ -3238,9 +3239,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id button
-id button2
-id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3379,7 +3377,6 @@ id imagen_View_Noticia
 id immediateStop
 id included
 id indeterminate
-id indicador_nombre_autor
 id indicador_titulo_noticia
 id info
 id invisible
@@ -3572,7 +3569,6 @@ id south
 id spacer
 id special_effects_controller_view_tag
 id spinner_item_noticia_post
-id spinner_opciones_Item_noticia
 id spline
 id split_action_bar
 id spread
@@ -3660,13 +3656,11 @@ id up
 id useLogo
 id vertical_only
 id vh_separator
-id view2
 id view3
 id view4
 id view5
 id viewFondo1
 id viewFondo2
-id viewPagerDesplazar
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3800,12 +3794,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_despliegue_noticia_abierta
 layout activity_main
-layout activity_main_noticiasdemo
 layout activity_noticia_abierta
 layout activity_splash
 layout activity_ver_mas_tarde_lista
-layout asd
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3876,7 +3869,6 @@ layout mtrl_picker_text_input_date_range
 layout mtrl_search_bar
 layout mtrl_search_view
 layout noticia_item
-layout noticia_item3
 layout noticia_pospuesta_item
 layout notification_action
 layout notification_action_tombstone
@@ -3885,14 +3877,10 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout progress_dialog
-layout reciclador
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
-layout simbolo_carga
 layout support_simple_spinner_dropdown_item
-layout vista_fragmento1
-layout vista_fragmento2
 layout vista_login
 mipmap ic_launcher
 mipmap ic_launcher_round

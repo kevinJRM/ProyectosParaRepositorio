@@ -29,7 +29,7 @@ public final class NoticiaDAO_Impl implements NoticiaDAO {
     this.__insertionAdapterOfNoticiaLocal = new EntityInsertionAdapter<NoticiaLocal>(__db) {
       @Override
       public String createQuery() {
-        return "INSERT OR REPLACE INTO `noticiaaaaasss` (`titulo`,`nombre`,`description`,`url`,`urlToImage`,`publishedAt`,`content`) VALUES (?,?,?,?,?,?,?)";
+        return "INSERT OR REPLACE INTO `noticias` (`titulo`,`nombre`,`description`,`url`,`urlToImage`,`publishedAt`,`content`) VALUES (?,?,?,?,?,?,?)";
       }
 
       @Override
@@ -74,7 +74,7 @@ public final class NoticiaDAO_Impl implements NoticiaDAO {
     this.__deletionAdapterOfNoticiaLocal = new EntityDeletionOrUpdateAdapter<NoticiaLocal>(__db) {
       @Override
       public String createQuery() {
-        return "DELETE FROM `noticiaaaaasss` WHERE `titulo` = ?";
+        return "DELETE FROM `noticias` WHERE `titulo` = ?";
       }
 
       @Override
@@ -89,11 +89,11 @@ public final class NoticiaDAO_Impl implements NoticiaDAO {
   }
 
   @Override
-  public void insert(final NoticiaLocal... noticiaaaaasss) {
+  public void insert(final NoticiaLocal... noticias) {
     __db.assertNotSuspendingTransaction();
     __db.beginTransaction();
     try {
-      __insertionAdapterOfNoticiaLocal.insert(noticiaaaaasss);
+      __insertionAdapterOfNoticiaLocal.insert(noticias);
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();
@@ -101,11 +101,11 @@ public final class NoticiaDAO_Impl implements NoticiaDAO {
   }
 
   @Override
-  public void insert(final NoticiaLocal noticiaaaaasss) {
+  public void insert(final NoticiaLocal noticias) {
     __db.assertNotSuspendingTransaction();
     __db.beginTransaction();
     try {
-      __insertionAdapterOfNoticiaLocal.insert(noticiaaaaasss);
+      __insertionAdapterOfNoticiaLocal.insert(noticias);
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();
@@ -113,11 +113,11 @@ public final class NoticiaDAO_Impl implements NoticiaDAO {
   }
 
   @Override
-  public void delete(final NoticiaLocal... noticia) {
+  public void delete(final NoticiaLocal... noticias) {
     __db.assertNotSuspendingTransaction();
     __db.beginTransaction();
     try {
-      __deletionAdapterOfNoticiaLocal.handleMultiple(noticia);
+      __deletionAdapterOfNoticiaLocal.handleMultiple(noticias);
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();
@@ -126,7 +126,7 @@ public final class NoticiaDAO_Impl implements NoticiaDAO {
 
   @Override
   public List<NoticiaLocal> getAll() {
-    final String _sql = "SELECT * FROM noticiaaaaasss";
+    final String _sql = "SELECT * FROM noticias";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     __db.assertNotSuspendingTransaction();
     final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
@@ -195,7 +195,7 @@ public final class NoticiaDAO_Impl implements NoticiaDAO {
 
   @Override
   public NoticiaLocal getByName(final String name) {
-    final String _sql = "SELECT * FROM noticiaaaaasss n WHERE n.nombre = ? LIMIT 1";
+    final String _sql = "SELECT * FROM noticias n WHERE n.nombre = ? LIMIT 1";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
     int _argIndex = 1;
     if (name == null) {

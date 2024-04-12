@@ -56,10 +56,6 @@
         "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\vista_fragmento2.xml"
     },
     {
-        "merged": "com.example.myappnoticias.app-merged_res-43:/layout_noticia_pospuesta_item.xml.flat",
-        "source": "com.example.myappnoticias.app-main-45:/layout/noticia_pospuesta_item.xml"
-    },
-    {
         "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -100,6 +96,10 @@
         "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.myappnoticias.app-merged_res-43:/layout_activity_noticia_abierta.xml.flat",
+        "source": "com.example.myappnoticias.app-main-45:/layout/activity_noticia_abierta.xml"
+    },
+    {
         "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_progress_dialog.xml.flat",
         "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\progress_dialog.xml"
     },
@@ -134,6 +134,10 @@
     {
         "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_vista_fragmento1.xml.flat",
         "source": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-main-45:\\layout\\vista_fragmento1.xml"
+    },
+    {
+        "merged": "com.example.myappnoticias.app-merged_res-43:/layout_activity_despliegue_noticia_abierta.xml.flat",
+        "source": "com.example.myappnoticias.app-main-45:/layout/activity_despliegue_noticia_abierta.xml"
     },
     {
         "merged": "C:\\Users\\yonik\\.gradle\\daemon\\8.0\\com.example.myappnoticias.app-merged_res-43:\\layout_activity_noticia_abierta.xml.flat",
