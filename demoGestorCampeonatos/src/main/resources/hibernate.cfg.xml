@@ -4,9 +4,9 @@
     <session-factory>
         <property name="hibernate.dialect">  org.hibernate.dialect.SQLServerDialect  </property>
         <property name="hibernate.connection.driver_class">  net.sourceforge.jtds.jdbc.Driver  </property>
-        <property name="hibernate.connection.url"> jdbc:jtds:sqlserver://localhost/pruebasTPO </property>
-        <property name="hibernate.connection.username">  alumno  </property>
-        <property name="hibernate.connection.password">  123  </property>
+        <property name="hibernate.connection.url"> jdbc:jtds:sqlserver://localhost/dbGestorCampts </property>
+        <property name="hibernate.connection.username">  usuario  </property>
+        <property name="hibernate.connection.password">  contraseña  </property>
 
 
         <property name="org.hibernate.cfg.Environment">_AUD</property>
