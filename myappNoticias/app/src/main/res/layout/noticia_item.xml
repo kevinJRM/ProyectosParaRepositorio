@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="@id/view3"
         app:layout_constraintStart_toStartOf="@id/view3"
         app:layout_constraintTop_toTopOf="@id/view3"
-        app:srcCompat="@drawable/_9326343_doblado_noticias_de_peri_dico_con_art_culos" />
+        app:srcCompat="@drawable/doblado_noticias_de_periodico_con_articulos" />
 
     <ImageView
         android:id="@+id/image_rv_id_articulo_pantalla_main"

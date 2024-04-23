@@ -4,6 +4,7 @@ import android.content.Context
 import android.util.Log
 import android.view.View
 import android.widget.AdapterView
+import androidx.lifecycle.MutableLiveData
 import com.example.myappnoticias.b_model.Articulo
 import com.example.myappnoticias.data.local.AppDatabase
 import com.example.myappnoticias.data.local.toLocal
@@ -15,6 +16,7 @@ class SpinnerNoticiaPospuesta(contexto : Context, artp : Articulo) : AdapterView
     private var context = contexto
     private var art = artp
     private val scope = CoroutineScope(GlobalScope.coroutineContext)
+    var indicadorActualizarLista : MutableLiveData<Articulo> = MutableLiveData<Articulo>()
 
     override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
         if (p2==1){
@@ -22,9 +24,10 @@ class SpinnerNoticiaPospuesta(contexto : Context, artp : Articulo) : AdapterView
                 kotlin.runCatching {
                     AppDatabase.getInstance(p1!!.context).noticiadao().delete(art.toLocal())
                 }.onSuccess {
-                    Log.d("TAG","RecicladorAdaptorNoticia-onBindViewHolder - guardado con exito "+it)
+                    indicadorActualizarLista.postValue(art)
+                    Log.d("TAG","SpinnerNoticiaPospuesta - eliminado con exito "+it)
                 }.onFailure {
-                    Log.d("TAG","RecicladorAdaptorNoticia-onBindViewHolder - fallo el guardado "+it)
+                    Log.d("TAG","SpinnerNoticiaPospuesta - fallo el eliminado "+it)
                 }
             }
         }

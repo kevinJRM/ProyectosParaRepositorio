@@ -85,7 +85,7 @@ class FragmentNoticiasPospuestas : AppCompatActivity() {
         rvArticulosAbiertos = findViewById(R.id.rv_NoticiasAbiertas)
         rvArticulosAbiertos.layoutManager = LinearLayoutManager(this)
 
-        adapter = NoticiaPospuestasAdapter()
+        adapter = NoticiaPospuestasAdapter(this)
 
         rvArticulosAbiertos.adapter = adapter
 
@@ -96,6 +96,22 @@ class FragmentNoticiasPospuestas : AppCompatActivity() {
         viewModelArtAbiertos = ViewModelProvider(this)[ViewModelNoticiasPosuestas::class.java]
         viewModelArtAbiertos.noticias.observe(this){
             adapter.Update(it)
+        }
+
+        adapter.confirmaCambioLista.observe(this){
+            scope.launch {
+                kotlin.runCatching {
+                    AppDatabase.getInstance(context).noticiadao().getAll().toLocalo()
+                }.onSuccess {
+                    viewModelArtAbiertos.onStart( ArrayList( it ))
+                    Log.d("TAG", "bindViewModel-BaseData exitoso - NoticiasAbiertas")
+                }.onFailure {
+                    Log.d("TAG", "bindViewModel-BaseData fallo - NoticiasAbiertas")
+                }
+            }
+            //var intent = Intent(this,FragmentNoticiasPospuestas::class.java)
+            //startActivity(intent)
+            //finish()
         }
     }
 

@@ -9,7 +9,7 @@ color purple_700
 color teal_200
 color teal_700
 color white
-drawable _9326343_doblado_noticias_de_peri_dico_con_art_culos
+drawable doblado_noticias_de_periodico_con_articulos
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable image_predeterminado_por_negative_resword

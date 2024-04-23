@@ -11,34 +11,34 @@ import com.example.myappnoticias.R
 import com.example.myappnoticias.b_model.Articulo
 import com.example.myappnoticias.b_model.MainNoticiaModel
 import com.example.myappnoticias.b_model.Source
-import com.example.myappnoticias.c_dominio.RecicladorAdaptadorNoticia
+import com.example.myappnoticias.c_dominio.NoticiaAbiertaAdaptador
 
 class Noticia : AppCompatActivity() {
 
     private lateinit var mainNoticiaModel : MainNoticiaModel
     private lateinit var rvArticulosNoticias : RecyclerView
-    private lateinit var adapter : RecicladorAdaptadorNoticia
+    private lateinit var adapter : NoticiaAbiertaAdaptador
     private var articuloAbierto = ArrayList<Articulo>()
 
-    private lateinit var botonAtras : Button
+    //private lateinit var botonAtras : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_despliegue_noticia_abierta)
 
-        botonAtras = findViewById(R.id.boton_atras_noticia_abierta)
+        //botonAtras = findViewById(R.id.boton_atras_noticia_abierta)
 
         rvArticulosNoticias = findViewById(R.id.recicleyViewNoticiaAbierta)
 
         rvArticulosNoticias.layoutManager = GridLayoutManager(this, 1)
 
-        adapter = RecicladorAdaptadorNoticia()
+        adapter = NoticiaAbiertaAdaptador()
 
         rvArticulosNoticias.adapter = adapter
 
-        botonAtras.setOnClickListener(){
+        /*botonAtras.setOnClickListener(){
             finish()
-        }
+        }*/
 
         //------------------------------------------------------------------------------------------
         val articulo = intent.getStringExtra("articulo").toString().split("|")
@@ -68,7 +68,9 @@ class Noticia : AppCompatActivity() {
         mainNoticiaModel.noticia.observe(this){
             adapter.Update(it)
         }
-
+        adapter.indicadorCierre.observe(this){
+            finish()
+        }
 
     }
 

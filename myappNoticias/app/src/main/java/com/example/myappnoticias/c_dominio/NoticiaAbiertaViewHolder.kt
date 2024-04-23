@@ -16,6 +16,7 @@ class NoticiaAbiertaViewHolder  (itemsView: View) : RecyclerView.ViewHolder(item
     val contenido : TextView = itemsView.findViewById(R.id.content_ArticuloAbierto)
     val url : TextView = itemsView.findViewById(R.id.txt_url_pagina)
     val botonGuardar : Button = itemsView.findViewById(R.id.boton_guardar_favoritos)
+    val botonCerraNoticia : Button = itemsView.findViewById(R.id.boton_atras_noticia_abierta)
 
     val contx = itemsView.context
 }

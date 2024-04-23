@@ -39,7 +39,7 @@
         app:layout_constraintBottom_toTopOf="@+id/vh_separator"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/_9326343_doblado_noticias_de_peri_dico_con_art_culos" />
+        app:srcCompat="@drawable/doblado_noticias_de_periodico_con_articulos" />
 
     <Spinner
         android:id="@+id/spinner_item_noticia_post"

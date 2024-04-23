@@ -1,19 +1,34 @@
 package com.example.myappnoticias.c_dominio
 
+import android.content.Context
 import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.findViewTreeLifecycleOwner
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myappnoticias.R
+import com.example.myappnoticias.a_ui.FragmentNoticiasPospuestas
 import com.example.myappnoticias.a_ui.Noticia
 import com.example.myappnoticias.b_model.Articulo
+import com.example.myappnoticias.data.local.AppDatabase
+import com.example.myappnoticias.data.local.toLocalo
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 
-class NoticiaPospuestasAdapter : RecyclerView.Adapter<NoticiaPospuestaViewHolder>() {
+class NoticiaPospuestasAdapter(fragmentNoticiasPospuestas: FragmentNoticiasPospuestas) : RecyclerView.Adapter<NoticiaPospuestaViewHolder>() {
 
     private var items : MutableList<Articulo> = ArrayList()
 
     private lateinit var adapterOpciones : ArrayAdapter<CharSequence>
+
+    private var observador= fragmentNoticiasPospuestas
+
+    var confirmaCambioLista : MutableLiveData<String> = MutableLiveData<String>()
+    private val scope = CoroutineScope(GlobalScope.coroutineContext)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoticiaPospuestaViewHolder {
 
@@ -54,7 +69,11 @@ class NoticiaPospuestasAdapter : RecyclerView.Adapter<NoticiaPospuestaViewHolder
 
         holder.spinerNoticiaPostItem.adapter = this.adapterOpciones
 
-        holder.spinerNoticiaPostItem.onItemSelectedListener = SpinnerNoticiaPospuesta(holder.itemView.context, items[position])
+        var sp = SpinnerNoticiaPospuesta(holder.itemView.context, items[position])
+        sp.indicadorActualizarLista.observe(observador){
+            confirmaCambioLista.postValue("actualizar")
+        }
+        holder.spinerNoticiaPostItem.onItemSelectedListener = sp
 
     }
 
