@@ -1,3 +1,4 @@
+use club;
 insert into socio values('00000000', 'cris', 18, 1, '00000000');
 insert into actividad values(0, 'futbol', 100, 10);
 insert into elemento values(0, 'pelota', 20);

@@ -1,4 +1,5 @@
-
+create database club; -- crear base de datos para las tablas
+use club; -- usar base de datos para las tablas
 create table socio (
 	dni varchar(250) not null primary key,
 	nombre varchar(250) not null,

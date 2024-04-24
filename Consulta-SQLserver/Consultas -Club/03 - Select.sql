@@ -1,3 +1,4 @@
+use club;
 --listado de socios
 select * from socio;
 
