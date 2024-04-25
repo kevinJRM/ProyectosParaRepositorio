@@ -39,7 +39,7 @@ from ( select aux1.dni_responsable, aux1.total total, aux1.vencimiento
 from (select s.dni_responsable, a.valor * (case when s.edad < 18 then c.valor_n else c.valor_a end) total, c.vencimiento 
 from cuota_socio cs join cuota c on c.id = cs.id_cuota join actividad_socio a_s on a_s.dni = cs.dni join actividad a on a.id = a_s.id_actividad join socio s on s.dni = a_s.dni and s.estado = 1
 union all 
-select s.dni_responsable, e.valor * (DateDiff(day, getdate(), es.fecha_devol)), es.fecha_devol from elemento_socio es join elemento e on e.id = es.id_elemento join socio s on s.dni = es.dni and s.estado = 1 where es.fecha_devol is null
+select s.dni_responsable, e.valor * (DateDiff(day, getdate(), es.fecha_alq)), es.fecha_devol from elemento_socio es join elemento e on e.id = es.id_elemento join socio s on s.dni = es.dni and s.estado = 1 where es.fecha_devol is null
 ) aux1) 
 aux2;
 
