@@ -1,10 +1,10 @@
 use periodico;
 
 /* si ya existe eliminara*/
-drop procedure if exists calse2ingenieriaBaseDeDatos;
+drop procedure if exists cantidadComentariosCadaUsuario;
 go
 
-create procedure calse2ingenieriaBaseDeDatos
+create procedure cantidadComentariosCadaUsuario
 as
 begin
 	-- Declarar variables para almacenar el nombre y apellido
@@ -23,4 +23,4 @@ begin
 end
 go
 
-exec periodico.dbo.calse2ingenieriaBaseDeDatos;
+exec periodico.dbo.cantidadComentariosCadaUsuario;
